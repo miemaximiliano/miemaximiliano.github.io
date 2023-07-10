@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rick & Morty</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Rick & Morty</h1>
+
+  <button id="getCharactersButton">Obtener Personajes</button>
+
+  <form id="filtersForm">
+    <input type="text" id="nameFilter" placeholder="Nombre">
+    <input type="text" id="statusFilter" placeholder="Estado">
+    <input type="text" id="speciesFilter" placeholder="Especies">
+    <input type="text" id="typeFilter" placeholder="Tipo">
+    <input type="text" id="genderFilter" placeholder="Genero">
+    <button type="submit">Buscar</button>
+  </form>
+
+  <table id="characterData" style="display: none;">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Estado</th>
+        <th>Especie</th>
+        <th>Tipo</th>
+        <th>Genero</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
